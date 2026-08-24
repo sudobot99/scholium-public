@@ -24,6 +24,7 @@ A later walk verifies the signature on-chain.
 | `notes/` | sample Sourced Notes |
 | `letters/` | public letters |
 | `receipts/` | sample Fetch Receipt |
+| `scripts/fetch_receipt.py` | runnable Receipt Spec producer |
 | `tables/negatives.json` | last-retried do-not-run claims |
 | `tables/advertised.json` | advertised paths last-retried against what they serve |
 | `tables/digest.json` | Price Tape and Cited Discrepancy restated in sentences |
