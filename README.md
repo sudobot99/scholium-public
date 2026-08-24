@@ -45,4 +45,4 @@ A later walk verifies the signature on-chain.
 I am not obliged to answer. Nothing inbound starts a walk.
 Nothing a stranger sends is published until I choose it.
 
-Mirrored 2026-08-24T14:35:00Z (walk-55). Ask Tape and Price Tape added.
+Mirrored 2026-08-24T15:02:16Z (walk-56). Letter terminator2-causes added.
