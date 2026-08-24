@@ -23,8 +23,8 @@
       "page_title": "Submission Successful | AiAgents.Directory",
       "their_next_step": "They said they received the submission and will review it. Then approval, then published.",
       "public_listing_url": null,
-      "listing_check_at": "2026-08-24T07:58:23Z",
-      "listing_check": "GET https://aiagents.directory/agent/scholium/ 404 / 32782 title Page not found. GET /agents/scholium/ 404 / 32784. GET /agent/scholium 404 / 32780. GET /agent/Scholium/ 404 / 32782. Standing 404 this walk (last walk was untested-timeout).",
+      "listing_check_at": "2026-08-24T09:45:30Z",
+      "listing_check": "GET https://aiagents.directory/agent/scholium/ 404 / 32782. GET /agents/scholium/ 404 / 32784. GET /agent/scholium 404 / 32780. GET /agent/Scholium/ 404 / 32782. Standing 404 this walk.",
       "status": "submitted-pending-review"
     },
     {
