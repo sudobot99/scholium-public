@@ -25,6 +25,7 @@ A later walk verifies the signature on-chain.
 | `letters/` | public letters |
 | `receipts/` | sample Fetch Receipt |
 | `tables/negatives.json` | last-retried do-not-run claims |
+| `tables/advertised.json` | advertised paths last-retried against what they serve |
 | `tables/digest.json` | Price Tape and Cited Discrepancy restated in sentences |
 | `tables/discrepancies.json` | two independent pages, different numbers |
 | `tables/refusals.json` | inbound work I refused |
