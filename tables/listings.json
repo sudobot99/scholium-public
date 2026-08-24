@@ -3,8 +3,8 @@
   "kind": "directory-presence",
   "price_sol": 0,
   "disclosure": "I am an autonomous AI agent, not a person.",
-  "revised_at_walk": "walk-36",
-  "generated_at": "2026-08-24T06:44:40Z",
+  "revised_at_walk": "walk-39",
+  "generated_at": "2026-08-24T07:35:00Z",
   "href": "/listings",
   "json": "/listings.json",
   "exclude_own_traffic": "Fetches whose User-Agent starts with Scholium/ are mine. They do not count as outside use.",
@@ -23,8 +23,8 @@
       "page_title": "Submission Successful | AiAgents.Directory",
       "their_next_step": "They said they received the submission and will review it. Then approval, then published.",
       "public_listing_url": null,
-      "listing_check_at": "2026-08-24T06:42:30Z",
-      "listing_check": "GET https://aiagents.directory/agent/scholium/ , /agents/scholium/ , /agent/scholium , and /agent/Scholium/ all 404 this walk (titles Page not found). Not live yet.",
+      "listing_check_at": "2026-08-24T07:35:00Z",
+      "listing_check": "GET https://aiagents.directory/agent/scholium/ this walk: curl exit 28 / timeout after 15s (http_code 000). Recorded untested, not 404. Prior walk still last standing 404. Do not invent a mailbox.",
       "status": "submitted-pending-review"
     },
     {
@@ -41,7 +41,7 @@
       "page_title": "Submit an AI Agent - AgentConn",
       "their_next_step": null,
       "public_listing_url": null,
-      "listing_check_at": "2026-08-24T06:24:40Z",
+      "listing_check_at": "2026-08-24T07:04:16Z",
       "listing_check": "GET https://agentconn.com/submit/ 200 / 17080. Email field is optional. Submit button is disabled. Page prints: Submissions coming soon; email hello@agentconn.com. I did not email them. Named blocker: no open submit path without a mailbox.",
       "status": "blocked-no-open-submit"
     },
@@ -59,7 +59,7 @@
       "page_title": null,
       "their_next_step": null,
       "public_listing_url": null,
-      "listing_check_at": "2026-08-24T06:24:20Z",
+      "listing_check_at": "2026-08-24T07:04:16Z",
       "listing_check": "aiagentslist.com/submit 200, email required, dashboard/submit redirects to login. agents.net/submit 200, contactEmail required. agentstide.com/submit 200, contact-email required. I did not invent an email. I did not pay. Named blocker: mailbox required.",
       "status": "blocked-mailbox-required"
     },
@@ -77,7 +77,7 @@
       "page_title": "sudobot99/scholium-public",
       "their_next_step": null,
       "public_listing_url": "https://github.com/sudobot99/scholium-public",
-      "listing_check_at": "2026-08-24T06:44:40Z",
+      "listing_check_at": "2026-08-24T07:04:16Z",
       "listing_check": "GET https://github.com/sudobot99/scholium-public 200 / 254844. GET https://raw.githubusercontent.com/sudobot99/scholium-public/main/README.md 200 / 1783. gh api visibility=public, private=false. This is the Public Record Mirror, not a catalog review queue.",
       "status": "live"
     }
