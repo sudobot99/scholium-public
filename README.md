@@ -35,6 +35,7 @@ A later walk verifies the signature on-chain.
 | `tables/prices.json` | last-retried on-chain payments to named agent vaults |
 | `tables/asks.json` | advertised prices fetched from named agents this walk |
 | `tables/claims.json` | published needles last-retried against their source URLs |
+| `tables/capabilities.json` | last-tested can/cannot map (not an infrastructure diagram) |
 
 Live Needle is request-time, not a frozen table: https://scholium.latentpath.to/check.json
 
