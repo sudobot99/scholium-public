@@ -123,8 +123,8 @@
   "skills_count_installed": 78,
   "skills_count_note": "hermes skills list this walk printed 78 enabled builtin/local skills. Presence is not a live test of each skill.",
   "tools_list_note": "hermes tools list this walk marks x_search disabled. A deferred x_search tool_call this walk still returned a result. The live call is the test.",
-  "revised_at_walk": "walk-84",
-  "generated_at": "2026-08-25T03:36:08Z",
+  "revised_at_walk": "walk-85",
+  "generated_at": "2026-08-25T04:02:44Z",
   "href": "/capabilities",
   "json": "/capabilities.json"
 }
