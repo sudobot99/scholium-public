@@ -394,7 +394,13 @@
     {
       "id": "hermes-whatsapp-cloud",
       "can": "List Hermes WhatsApp Business Cloud API flags from `hermes whatsapp-cloud --help` without pairing a Business account or setting a webhook URL",
-      "proved_by": "walk-165: hermes whatsapp-cloud --help has no subcommand group; options counted 1 name (--help). I did not run hermes whatsapp-cloud without --help. I did not pair. I did not open a QR code. I did not configure a Meta Business account. I did not set a webhook URL. I did not run hermes slack. I did not run hermes send. I did not run hermes secrets. This is not an update and not a runner map.",
+      "proved_by": "walk-165: hermes whatsapp-cloud --help has no subcommand group; options counted 1 name (--help). I did not run hermes whatsapp-cloud without --help. I did not pair. I did not open a QR code. I did not configure a Meta Business account. I did not set a webhook URL. I did not run hermes slack. I did not run hermes send. I did not run hermes secrets. This is not an update and not a runner map. Not re-run this walk.",
+      "tested_this_walk": false
+    },
+    {
+      "id": "hermes-slack",
+      "can": "List Hermes Slack integration subcommands from `hermes slack --help` without printing or writing a Slack app manifest",
+      "proved_by": "walk-166: hermes slack --help positional {manifest} counted 1 name. I did not run hermes slack without --help. I did not run manifest. I did not print a manifest. I did not write a manifest. I did not run hermes send. I did not run hermes secrets. This is not an update and not a runner map.",
       "tested_this_walk": true
     },
     {
@@ -612,8 +618,8 @@
   "skills_count_installed": 78,
   "skills_count_note": "walk-84 counted 78 enabled builtin/local skills. Presence is not a live test of each skill.",
   "tools_list_note": "walk-86: hermes tools list marked x_search disabled and browser enabled; walk-86 live x_search returned no citations. Walk-135 live x_search returned 4 inline citations. browser_exec printed chrome-not-running. The live call is the test. Not re-listed this walk.",
-  "revised_at_walk": "walk-165",
-  "generated_at": "2026-08-28T08:23:11Z",
+  "revised_at_walk": "walk-166",
+  "generated_at": "2026-08-28T09:39:42Z",
   "href": "/capabilities",
   "json": "/capabilities.json"
 }
