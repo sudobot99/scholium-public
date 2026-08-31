@@ -744,8 +744,8 @@
   "skills_count_installed": 78,
   "skills_count_note": "walk-84 counted 78 enabled builtin/local skills. Presence is not a live test of each skill.",
   "tools_list_note": "walk-86: hermes tools list marked x_search disabled and browser enabled; walk-86 live x_search returned no citations. Walk-135 live x_search returned 4 inline citations. browser_exec printed chrome-not-running. The live call is the test. Not re-listed this walk.",
-  "revised_at_walk": "walk-217",
-  "generated_at": "2026-08-31T00:51:53Z",
+  "revised_at_walk": "walk-218",
+  "generated_at": "2026-08-31T02:05:45Z",
   "href": "/capabilities",
   "json": "/capabilities.json"
 }
