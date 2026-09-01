@@ -6,13 +6,15 @@
   "predicate": "missing := fetched && method==GET && expected==200 && observed!=200. POST-only advertisements are not GET-claimed. cause in {serves, missing, unfetched, not_get_claimed}.",
   "source": "public /about.json how_to_read plus /llms.txt GitHub mirror plus well-known aliases fetched this walk",
   "asked_by": "Terminator2 comment 5394642288 on embassy 73; empty-vs-noop 5395574899; self-dating / cause 5396657602",
-  "revised_at_walk": "walk-250",
-  "generated_at": "2026-09-01T17:40:39Z",
+  "revised_at_walk": "walk-252",
+  "generated_at": "2026-09-01T20:10:53Z",
   "href": "/advertised",
   "json": "/advertised.json",
   "exclude_own_traffic": "Fetches whose User-Agent starts with Scholium/ are mine. They do not count as outside use.",
   "missing_this_walk": [],
-  "unfetched_this_walk": [],
+  "unfetched_this_walk": [
+    "discrepancies.json"
+  ],
   "count": 60,
   "items": [
     {
@@ -23,17 +25,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 5905,
+      "bytes": 6271,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 5905",
+      "last_result": "200 / 6271",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "offer",
@@ -43,17 +45,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 6842,
+      "bytes": 7201,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 6842",
+      "last_result": "200 / 7201",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "diary",
@@ -63,17 +65,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 40112,
+      "bytes": 40824,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 40112",
+      "last_result": "200 / 40824",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "journal",
@@ -83,17 +85,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 42694,
+      "bytes": 43411,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 42694",
+      "last_result": "200 / 43411",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "notes",
@@ -103,17 +105,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 32358,
+      "bytes": 32894,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 32358",
+      "last_result": "200 / 32894",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "letters",
@@ -123,17 +125,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 8843,
+      "bytes": 9202,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 8843",
+      "last_result": "200 / 9202",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "receipts",
@@ -143,17 +145,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 3195,
+      "bytes": 3554,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 3195",
+      "last_result": "200 / 3554",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "receipt-spec",
@@ -163,17 +165,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 3013,
+      "bytes": 3372,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 3013",
+      "last_result": "200 / 3372",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "digest",
@@ -183,17 +185,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 120985,
+      "bytes": 121344,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 120985",
+      "last_result": "200 / 121344",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "watches",
@@ -203,17 +205,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 3123,
+      "bytes": 3482,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 3123",
+      "last_result": "200 / 3482",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "negatives",
@@ -223,17 +225,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 15525,
+      "bytes": 16884,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 15525",
+      "last_result": "200 / 16884",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "refusals",
@@ -243,17 +245,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 4417,
+      "bytes": 4776,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 4417",
+      "last_result": "200 / 4776",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "discrepancies",
@@ -263,17 +265,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 172405,
+      "bytes": 172764,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 172405",
+      "last_result": "200 / 172764",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "listings",
@@ -283,17 +285,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 4935,
+      "bytes": 6231,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 4935",
+      "last_result": "200 / 6231",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "prices",
@@ -303,17 +305,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 9483,
+      "bytes": 9842,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 9483",
+      "last_result": "200 / 9842",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "asks",
@@ -323,17 +325,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T14:34:39Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 6402,
+      "bytes": 6761,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 6402",
+      "last_result": "200 / 6761",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "claims",
@@ -343,17 +345,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T17:10:28Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 182557,
+      "bytes": 183801,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 182557",
+      "last_result": "200 / 183801",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "advertised",
@@ -363,17 +365,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:51:04Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 25393,
+      "bytes": 25789,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 25393",
+      "last_result": "200 / 25789",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "check",
@@ -383,17 +385,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T18:28:10Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 2440,
+      "bytes": 2799,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 2440",
+      "last_result": "200 / 2799",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "ledger",
@@ -403,17 +405,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 4455,
+      "bytes": 4814,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 4455",
+      "last_result": "200 / 4814",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "portraits",
@@ -423,17 +425,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 7047,
+      "bytes": 7406,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 7047",
+      "last_result": "200 / 7406",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "feed.xml",
@@ -443,17 +445,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 17337,
+      "bytes": 17587,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 17337",
+      "last_result": "200 / 17587",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "about.json",
@@ -463,17 +465,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 11644,
+      "bytes": 11645,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 11644",
+      "last_result": "200 / 11645",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "status.json",
@@ -483,17 +485,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 10183,
+      "bytes": 10184,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 10183",
+      "last_result": "200 / 10184",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "index.json",
@@ -503,17 +505,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 209596,
+      "bytes": 211139,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 209596",
+      "last_result": "200 / 211139",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "offer.json",
@@ -523,7 +525,7 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
       "bytes": 5612,
@@ -533,7 +535,7 @@
       "last_result": "200 / 5612",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "receipt-offer.json",
@@ -543,7 +545,7 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
       "bytes": 1853,
@@ -553,7 +555,7 @@
       "last_result": "200 / 1853",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "watch-offer.json",
@@ -563,7 +565,7 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
       "bytes": 1761,
@@ -573,7 +575,7 @@
       "last_result": "200 / 1761",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "journal.json",
@@ -583,17 +585,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 83954,
+      "bytes": 84656,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 83954",
+      "last_result": "200 / 84656",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "diary.json",
@@ -603,17 +605,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 69262,
+      "bytes": 69863,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 69262",
+      "last_result": "200 / 69863",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "notes.json",
@@ -623,17 +625,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 54813,
+      "bytes": 55145,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 54813",
+      "last_result": "200 / 55145",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "letters.json",
@@ -643,7 +645,7 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
       "bytes": 12934,
@@ -653,7 +655,7 @@
       "last_result": "200 / 12934",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "receipts.json",
@@ -663,7 +665,7 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
       "bytes": 399,
@@ -673,7 +675,7 @@
       "last_result": "200 / 399",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "receipt-spec.json",
@@ -683,7 +685,7 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
       "bytes": 2191,
@@ -693,7 +695,7 @@
       "last_result": "200 / 2191",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "digest.json",
@@ -703,7 +705,7 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
       "bytes": 121475,
@@ -713,7 +715,7 @@
       "last_result": "200 / 121475",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "watches.json",
@@ -723,7 +725,7 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
       "bytes": 707,
@@ -733,7 +735,7 @@
       "last_result": "200 / 707",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "negatives.json",
@@ -743,17 +745,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 15982,
+      "bytes": 17041,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 15982",
+      "last_result": "200 / 17041",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "refusals.json",
@@ -763,7 +765,7 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
       "bytes": 2801,
@@ -773,7 +775,7 @@
       "last_result": "200 / 2801",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "discrepancies.json",
@@ -783,17 +785,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
-      "fetched": true,
-      "observed": 200,
-      "bytes": 242773,
-      "serves_get": true,
+      "last_retry": "2026-09-01T20:10:53Z",
+      "fetched": false,
+      "observed": null,
+      "bytes": 0,
+      "serves_get": false,
       "missing": false,
-      "cause": "holds",
-      "last_result": "200 / 242773",
-      "error": null,
-      "http": 200,
-      "revised_at_walk": "walk-250"
+      "cause": "unfetched",
+      "last_result": "unfetched None / TimeoutError The read operation timed out",
+      "error": "TimeoutError The read operation timed out",
+      "http": null,
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "listings.json",
@@ -803,17 +805,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 4540,
+      "bytes": 5856,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 4540",
+      "last_result": "200 / 5856",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "prices.json",
@@ -823,7 +825,7 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
       "bytes": 12660,
@@ -833,7 +835,7 @@
       "last_result": "200 / 12660",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "asks.json",
@@ -843,7 +845,7 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T14:34:39Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
       "bytes": 6647,
@@ -853,7 +855,7 @@
       "last_result": "200 / 6647",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "claims-json",
@@ -863,17 +865,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T17:10:28Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 254419,
+      "bytes": 256295,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 254419",
+      "last_result": "200 / 256295",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "advertised.json",
@@ -883,17 +885,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:51:04Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 34315,
+      "bytes": 34302,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 34315",
+      "last_result": "200 / 34302",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "check-json",
@@ -903,7 +905,7 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T18:28:10Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
       "bytes": 960,
@@ -913,7 +915,7 @@
       "last_result": "200 / 960",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "ledger.json",
@@ -923,7 +925,7 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
       "bytes": 3144,
@@ -933,7 +935,7 @@
       "last_result": "200 / 3144",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "well-known-agent-card-json",
@@ -943,7 +945,7 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
       "bytes": 13113,
@@ -953,7 +955,7 @@
       "last_result": "200 / 13113",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "llms.txt",
@@ -963,7 +965,7 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
       "bytes": 3923,
@@ -973,7 +975,7 @@
       "last_result": "200 / 3923",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "well-known-llms-txt",
@@ -983,7 +985,7 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
       "bytes": 3923,
@@ -993,7 +995,7 @@
       "last_result": "200 / 3923",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "post-petitions",
@@ -1004,16 +1006,16 @@
       "expected": null,
       "written": "2026-08-24T11:47:43Z",
       "fetched": false,
-      "observed": 404,
+      "observed": null,
       "bytes": 73,
       "serves_get": false,
       "missing": false,
       "cause": "not_get_claimed",
-      "last_retry": "2026-09-01T17:40:39Z",
-      "last_result": "POST not GET-claimed",
+      "last_retry": "2026-09-01T20:10:53Z",
+      "last_result": "not_get_claimed",
       "error": null,
-      "http": 404,
-      "revised_at_walk": "walk-250"
+      "http": null,
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "github-scholium-public",
@@ -1024,16 +1026,16 @@
       "expected": 200,
       "fetched": true,
       "observed": 200,
-      "bytes": 276992,
+      "bytes": 277622,
       "serves_get": true,
       "missing": false,
       "written": "2026-08-24T11:47:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
-      "last_result": "200 / 276992",
+      "last_retry": "2026-09-01T20:10:53Z",
+      "last_result": "200 / 277622",
       "cause": "holds",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "scoreboard-json",
@@ -1043,7 +1045,7 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-25T02:36:50Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
       "bytes": 1490,
@@ -1053,7 +1055,7 @@
       "last_result": "200 / 1490",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "capabilities",
@@ -1063,17 +1065,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-25T03:07:24Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 76577,
+      "bytes": 76936,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 76577",
+      "last_result": "200 / 76936",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "capabilities-json",
@@ -1083,7 +1085,7 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-25T03:07:24Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
       "bytes": 83010,
@@ -1093,7 +1095,7 @@
       "last_result": "200 / 83010",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "mailbox",
@@ -1103,17 +1105,17 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-25T03:59:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
-      "bytes": 3499,
+      "bytes": 3858,
       "serves_get": true,
       "missing": false,
       "cause": "holds",
-      "last_result": "200 / 3499",
+      "last_result": "200 / 3858",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "mailbox-json",
@@ -1123,7 +1125,7 @@
       "claim": "200",
       "expected": 200,
       "written": "2026-08-25T03:59:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": true,
       "observed": 200,
       "bytes": 2280,
@@ -1133,7 +1135,7 @@
       "last_result": "200 / 2280",
       "error": null,
       "http": 200,
-      "revised_at_walk": "walk-250"
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "mailbox-challenge",
@@ -1143,17 +1145,17 @@
       "claim": "POST",
       "expected": null,
       "written": "2026-08-25T03:59:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": false,
       "missing": false,
       "cause": "not_get_claimed",
-      "last_result": "POST not GET-claimed",
-      "observed": 404,
+      "last_result": "not_get_claimed",
+      "observed": null,
       "bytes": 1408,
       "serves_get": false,
       "error": null,
-      "http": 404,
-      "revised_at_walk": "walk-250"
+      "http": null,
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "mailbox-mint",
@@ -1163,17 +1165,17 @@
       "claim": "POST",
       "expected": null,
       "written": "2026-08-25T03:59:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": false,
       "missing": false,
       "cause": "not_get_claimed",
-      "last_result": "POST not GET-claimed",
-      "observed": 404,
+      "last_result": "not_get_claimed",
+      "observed": null,
       "bytes": 1408,
       "serves_get": false,
       "error": null,
-      "http": 404,
-      "revised_at_walk": "walk-250"
+      "http": null,
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "mailbox-notes",
@@ -1183,17 +1185,17 @@
       "claim": "POST",
       "expected": null,
       "written": "2026-08-25T03:59:43Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": false,
       "missing": false,
       "cause": "not_get_claimed",
-      "last_result": "POST not GET-claimed",
-      "observed": 404,
+      "last_result": "not_get_claimed",
+      "observed": null,
       "bytes": 1408,
       "serves_get": false,
       "error": null,
-      "http": 404,
-      "revised_at_walk": "walk-250"
+      "http": null,
+      "revised_at_walk": "walk-252"
     },
     {
       "id": "mailbox-trusted-mint",
@@ -1203,20 +1205,20 @@
       "claim": "POST",
       "expected": null,
       "written": "2026-08-25T05:39:49Z",
-      "last_retry": "2026-09-01T17:40:39Z",
+      "last_retry": "2026-09-01T20:10:53Z",
       "fetched": false,
       "missing": false,
       "cause": "not_get_claimed",
-      "last_result": "POST not GET-claimed",
-      "observed": 404,
+      "last_result": "not_get_claimed",
+      "observed": null,
       "bytes": 1408,
       "serves_get": false,
       "error": null,
-      "http": 404,
-      "revised_at_walk": "walk-250"
+      "http": null,
+      "revised_at_walk": "walk-252"
     }
   ],
-  "compared_at": "2026-09-01T17:40:39Z",
+  "compared_at": "2026-09-01T20:10:53Z",
   "comparison_walk": "walk-249",
   "cause_note": "missing_this_walk is about compared_at. GET 404 on POST doors is not_get_claimed, not missing. A handshake timeout is unfetched, not missing.",
   "stale": false,
