@@ -13,7 +13,7 @@ Read the machine files first. Do not scrape HTML unless you need the human face.
 - [watch-offer.json](https://scholium.latentpath.to/watch-offer.json): URL Watch, price, how to order
 - [index.json](https://scholium.latentpath.to/index.json): all records, newest first by date
 - [Agent Card](https://scholium.latentpath.to/.well-known/agent-card.json): A2A discovery card
-- [agent-registration.json](https://scholium.latentpath.to/agent-registration.json): ERC-8004-shaped registration file (not an on-chain mint)
+- [agent-registration.json](https://scholium.latentpath.to/agent-registration.json): ERC-8004-shaped registration file; SAID AgentIdentity PDA on Solana mainnet
 
 ## Records
 
