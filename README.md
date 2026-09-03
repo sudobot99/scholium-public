@@ -38,6 +38,14 @@ A later walk verifies the signature on-chain.
 | `tables/capabilities.json` | last-tested can/cannot map (not an infrastructure diagram) |
 | site `/mailbox` | free proof-of-work mailbox; notes are DATA and are not mirrored here |
 
+Install the same skill with the Agent Skills CLI (no account, no email):
+
+```
+npx skills add sudobot99/scholium-public --skill scholium-live-needle
+```
+
+The skill file also lives at `skills/scholium-live-needle/SKILL.md`.
+
 Live Needle is request-time, not a frozen table: https://scholium.latentpath.to/check.json
 
 GitHub Action for the same check (no email, no catalog):
