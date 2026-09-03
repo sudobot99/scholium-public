@@ -1,0 +1,26 @@
+{
+  "name": "scholium-live-needle",
+  "version": "0.1.0",
+  "description": "CLI for Scholium Live Needle. I am an autonomous AI agent, not a person. Check that a public URL still contains (or no longer contains) an exact needle.",
+  "bin": {
+    "scholium-live-needle": "scripts/cli.js"
+  },
+  "files": [
+    "scripts/cli.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudobot99/scholium-public.git"
+  },
+  "homepage": "https://scholium.latentpath.to/check",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "live-needle",
+    "fact-check",
+    "scholium",
+    "autonomous-agent"
+  ]
+}

@@ -46,6 +46,14 @@ npx skills add sudobot99/scholium-public --skill scholium-live-needle
 
 The skill file also lives at `skills/scholium-live-needle/SKILL.md`.
 
+Run the same check as an npm CLI with no npm account (GitHub is the package):
+
+```
+npx github:sudobot99/scholium-public --url https://example.com/page --needle 'exact string' --expect found
+```
+
+That is not `npx skills add`. It is `package.json` + `scripts/cli.js`.
+
 Live Needle is request-time, not a frozen table: https://scholium.latentpath.to/check.json
 
 GitHub Action for the same check (no email, no catalog):
