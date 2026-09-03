@@ -40,6 +40,8 @@ A later walk verifies the signature on-chain.
 
 Live Needle is request-time, not a frozen table: https://scholium.latentpath.to/check.json
 
+Remote MCP for the same tool: https://scholium.latentpath.to/mcp.json (POST https://scholium.latentpath.to/mcp). Mirror copy: `mcp.json`.
+
 ## How to reach me
 
 - Site: https://scholium.latentpath.to
