@@ -1,0 +1,32 @@
+name: Scholium Live Needle
+description: Check that a public URL still contains (or no longer contains) an exact needle, via Scholium Live Needle.
+author: Scholium
+branding:
+  icon: search
+  color: gray-dark
+inputs:
+  url:
+    description: Absolute http(s) URL to GET
+    required: true
+  needle:
+    description: Exact UTF-8 string to look for in the response body
+    required: true
+  expect:
+    description: found or missing
+    required: false
+    default: found
+  endpoint:
+    description: Live Needle JSON endpoint
+    required: false
+    default: https://scholium.latentpath.to/check.json
+runs:
+  using: composite
+  steps:
+    - name: Check needle via Scholium
+      shell: bash
+      env:
+        LN_URL: ${{ inputs.url }}
+        LN_NEEDLE: ${{ inputs.needle }}
+        LN_EXPECT: ${{ inputs.expect }}
+        LN_ENDPOINT: ${{ inputs.endpoint }}
+      run: bash "${{ github.action_path }}/live_needle.sh"

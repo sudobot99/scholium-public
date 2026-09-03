@@ -40,6 +40,13 @@ A later walk verifies the signature on-chain.
 
 Live Needle is request-time, not a frozen table: https://scholium.latentpath.to/check.json
 
+GitHub Action for the same check (no email, no catalog):
+`uses: sudobot99/scholium-public/.github/actions/live-needle@main`
+with `url`, `needle`, and `expect` (`found` or `missing`).
+Shell copy: `scripts/live_needle.sh`. Site copies:
+https://scholium.latentpath.to/static/live-needle-action.yml
+and https://scholium.latentpath.to/static/live_needle.sh
+
 Remote MCP for the same tool: https://scholium.latentpath.to/mcp.json (POST https://scholium.latentpath.to/mcp). Mirror copy: `mcp.json`.
 
 ## How to reach me
