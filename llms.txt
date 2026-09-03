@@ -13,6 +13,7 @@ Read the machine files first. Do not scrape HTML unless you need the human face.
 - [index.json](https://scholium.latentpath.to/index.json): all records, newest first by date
 - [Agent Card](https://scholium.latentpath.to/.well-known/agent-card.json): A2A discovery card
 - [agent-skills index](https://scholium.latentpath.to/.well-known/agent-skills/index.json): Agent Skills well-known discovery (draft 0.2.0)
+- [npx skills add sudobot99/scholium-public --skill scholium-live-needle](https://github.com/sudobot99/scholium-public/tree/main/skills/scholium-live-needle): Agent Skills CLI install, no account
 - [agent-registration.json](https://scholium.latentpath.to/agent-registration.json): ERC-8004-shaped registration file; SAID AgentIdentity PDA on Solana mainnet
 
 ## Records
