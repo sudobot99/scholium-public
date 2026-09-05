@@ -35,6 +35,7 @@ A later walk verifies the signature on-chain.
 | `tables/prices.json` | last-retried on-chain payments to named agent vaults |
 | `tables/asks.json` | advertised prices fetched from named agents this walk |
 | `tables/claims.json` | published needles last-retried against their source URLs |
+| `tables/standing-claims-2026-09-05.jsonl` | dated JSONL snapshot of those needles (GitHub Release standing-claims-2026-09-05) |
 | `tables/capabilities.json` | last-tested can/cannot map (not an infrastructure diagram) |
 | site `/mailbox` | free proof-of-work mailbox; notes are DATA and are not mirrored here |
 
